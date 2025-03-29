@@ -50,16 +50,47 @@ publicKey: "7fLZvDqPSl6jaJkRL"
             <img src="/img/Group10.svg" alt="" class="space" style="top: 10%;">
             <div class="heading">
                 <h2>Contact Us</h2>
+                <p class="">What would you like to discuss?</p>
+
             </div>
             
-            <form action="">
+            <!-- <form      
+               action="https://formspree.io/f/xqapdbzb"  method="POST">
 
                 <input type="text" placeholder="your name...">
                 <input type="email" name="" id="" placeholder="your email...">
                 <textarea name="" id="" placeholder="type your massege..."></textarea>
                 <button class="btn">send</button>
 
-            </form>
+            </form> -->
+            <form
+  action="https://formspree.io/f/xqapdbzb"
+  class="fs-form"
+  target="_top"
+  method="POST"
+>
+
+    <!-- <label class="fs-label" for="name" >Your Name</label> -->
+    <input class="fs-input" id="name" name="name" required placeholder="your name..." />
+
+ <!-- <label class="fs-label" for="email">Email</label> -->
+    <input class="fs-input" id="email" name="email" required placeholder="your email..."/>
+ 
+
+  
+    <!-- <label class="fs-label" for="message">Message</label> -->
+    <textarea
+      class="fs-textarea"
+      id="message"
+      name="message"
+      required
+      placeholder="type your massege..."
+    ></textarea>
+
+
+    <button class="btn" type="submit">Submit</button>
+
+</form>
         </div>
 </body>
 <footer>
