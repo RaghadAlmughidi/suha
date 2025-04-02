@@ -208,6 +208,7 @@ body{
         width: 100%;
         text-align: center;
         padding: 15px 0;
+        z-index: 55555;
     }
 
     .nav-links.active {
@@ -228,10 +229,13 @@ body{
 .container{
     padding-inline: 10%;
     
-    margin:10rem auto;
+    margin:2rem auto;
     z-index: 555;
     text-align: center;
 
+}
+.home-con{
+    margin:10rem auto;
 }
 
 .gradient2{
@@ -564,7 +568,7 @@ align-items: center;
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 414px) {
     .gradient {
         position: absolute;
         top: 5%;
@@ -582,17 +586,22 @@ align-items: center;
     .container {
 padding-inline: 5%;
     }
+    .home-con{
+        margin:5rem auto;
+    }
+    
     h1{
         font-size: 2rem;
+        width: 100%;
     }
     h2{
-        font-size:1rem ;
+        font-size:1.5rem ;
     }
     h4{
         font-size: .8rem;
     }
     p{
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .btn{
         font-size: .8rem;
@@ -665,5 +674,49 @@ padding-inline: 5%;
     .btn {
     
         width: 80%;
+        left: 10% !important;
+        
     }
-  }
+    input, textarea {
+
+        width: 100%;
+    }
+    .space {
+        /* width: 100%; */
+        /* height: auto; */
+   
+        width: 100%;
+    }
+
+    /* .applications */
+    .app-item {
+        display: flex;
+    flex-direction: column;
+        gap: 0;
+
+    }
+    .app-item--img {
+        width: 50%;
+        order: 1;
+        margin-bottom: 2rem;
+    }
+    .app-item--text{
+        text-align: justify;
+        order: 2;
+        width: 100%;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .container_img {
+        width: 50%;
+    }
+    .container_text {
+        width: 100%;
+        order: 2;
+      
+    }
+
+}
+
+  
