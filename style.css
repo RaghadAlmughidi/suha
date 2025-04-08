@@ -86,6 +86,7 @@ span{
 .btn-try {
 
     width: 50%;
+    margin-bottom: 10rem;
   
 }
 #one{
@@ -423,6 +424,7 @@ form{
     gap: 1rem;
     z-index: 3333;
     width: 100%;
+    margin-bottom: 18rem;
 }
 
 
@@ -464,6 +466,18 @@ max-height: 20rem;
     height: 100%;
     color: var(--typo__p);
 }
+.overlay {
+    position: absolute;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.146); /* Black see-through */
+  
+    width: 100%;
+
+    opacity:.3;
+ 
+  }
+  
 .member-bio a{
     color: var(--typo__p);
     text-decoration: underline;
@@ -605,6 +619,7 @@ padding-inline: 5%;
     }
     .btn{
         font-size: .8rem;
+        left: 10%;
     }
     .icon{
         width: 32px;
@@ -709,7 +724,7 @@ padding-inline: 5%;
         flex-direction: column;
     }
     .container_img {
-        width: 50%;
+        width: 80%;
     }
     .container_text {
         width: 100%;

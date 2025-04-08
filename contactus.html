@@ -4,56 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-<!-- mailjs -->
-<script type="text/javascript"
-src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-(function(){
-emailjs.init({
-publicKey: "7fLZvDqPSl6jaJkRL"
-});
-})();
-</script>
-   <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- mailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "7fLZvDqPSl6jaJkRL"
+            });
+        })();
+    </script>
+    <title>Contact us</title>
 </head>
 <header>
-   <!-- <img src="/img/white-logo.svg" alt="" class="white-logo">
+    <!-- <img src="/img/white-logo.svg" alt="" class="white-logo">
    <ul class="menu">
     <li><a href="aboutus.html">about</a></li>
     <li><a href="applications.html">Applications</a></li>
     <li><a href="contactus.html">Contact us</a></li>
     <li><a href="try.html"><span>Try Suha</span> </a></li>
    </ul> -->
-   <nav class="navbar">
-    <div class="logo"><a href="#"> <img src="/img/white-logo.svg" alt="" class="white-logo"></a></div>
-    <ul class="nav-links">
-        <li><a href="aboutus.html">about</a></li>
-    <li><a href="applications.html">Applications</a></li>
-    <li><a href="contactus.html">Contact us</a></li>
-    <li><a href="try.html"><span>Try Suha</span> </a></li>
-    </ul>
-    <div class="menu-toggle" id="menu-toggle">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-</nav>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"> <img src="/img/white-logo.svg" alt="" class="white-logo"></a></div>
+        <ul class="nav-links">
+            <li><a href="aboutus.html">about</a></li>
+            <li><a href="applications.html">Applications</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="try.html"><span>Try Suha</span> </a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
 </header>
-<body>
-    <img src="img/Group 21.svg" alt="" class="gradient2">
+
+
     <body>
-        
+
         <div class="container">
-            <img src="/img/Group10.svg" alt="" class="space" style="top: 10%;">
             <div class="heading">
                 <h2>Contact Us</h2>
                 <p class="">What would you like to discuss?</p>
 
             </div>
-            
+
             <!-- <form      
                action="https://formspree.io/f/xqapdbzb"  method="POST">
 
@@ -63,40 +61,31 @@ publicKey: "7fLZvDqPSl6jaJkRL"
                 <button class="btn">send</button>
 
             </form> -->
-            <form
-  action="https://formspree.io/f/xqapdbzb"
-  class="fs-form"
-  target="_top"
-  method="POST"
->
+            <form action="https://formspree.io/f/xqapdbzb" class="fs-form" target="_top" method="POST">
 
-    <!-- <label class="fs-label" for="name" >Your Name</label> -->
-    <input class="fs-input" id="name" name="name" required placeholder="your name..." />
+                <!-- <label class="fs-label" for="name" >Your Name</label> -->
+                <input class="fs-input" id="name" name="name" required placeholder="your name..." />
 
- <!-- <label class="fs-label" for="email">Email</label> -->
-    <input class="fs-input" id="email" name="email" required placeholder="your email..."/>
- 
-
-  
-    <!-- <label class="fs-label" for="message">Message</label> -->
-    <textarea
-      class="fs-textarea"
-      id="message"
-      name="message"
-      required
-      placeholder="type your massege..."
-    ></textarea>
+                <!-- <label class="fs-label" for="email">Email</label> -->
+                <input class="fs-input" id="email" name="email" required placeholder="your email..." />
 
 
-    <button class="btn" type="submit">Submit</button>
 
-</form>
+                <!-- <label class="fs-label" for="message">Message</label> -->
+                <textarea class="fs-textarea" id="message" name="message" required
+                    placeholder="type your massege..."></textarea>
+
+
+                <button class="btn" type="submit">Submit</button>
+
+            </form>
         </div>
-</body>
-<footer>
-    <img src="/img/footer-logo.svg" alt="" class="footer-logo">
-    <p class="small">All Right Reserved For Suha team © 2025</p>
-    <a href="kjhgkj"><img src="img/devicon_twitter.svg" alt=""></a>
-</footer>
-<script src="script.js"></script>
+    </body>
+    <footer>
+        <img src="/img/footer-logo.svg" alt="" class="footer-logo">
+        <p class="small">All Right Reserved For Suha team © 2025</p>
+        <a href="kjhgkj"><img src="img/devicon_twitter.svg" alt=""></a>
+    </footer>
+    <script src="script.js"></script>
+
 </html>
